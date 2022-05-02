@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B758BA97311F9DB3AF88FB93 /* Pods_NAVE4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FCF1AE17CE4151B232E8BF /* Pods_NAVE4.framework */; };
 		EA7C92FF281A26E700D931DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C92FE281A26E700D931DA /* AppDelegate.swift */; };
 		EA7C9301281A26E700D931DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9300281A26E700D931DA /* SceneDelegate.swift */; };
-		EA7C9303281A26E700D931DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9302281A26E700D931DA /* ViewController.swift */; };
+		EA7C9303281A26E700D931DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9302281A26E700D931DA /* LoginViewController.swift */; };
 		EA7C9306281A26E700D931DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7C9304281A26E700D931DA /* Main.storyboard */; };
 		EA7C9308281A26E900D931DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7C9307281A26E900D931DA /* Assets.xcassets */; };
 		EA7C930B281A26E900D931DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7C9309281A26E900D931DA /* LaunchScreen.storyboard */; };
+		EA7C9313281A2FB100D931DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA7C9312281A2FB000D931DA /* GoogleService-Info.plist */; };
+		EA7C9315281A3ED500D931DA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9314281A3ED500D931DA /* AboutViewController.swift */; };
+		EA7C9317281A445600D931DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9316281A445600D931DA /* MainViewController.swift */; };
+		EA7C9319281A48BA00D931DA /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9318281A48BA00D931DA /* WineViewController.swift */; };
+		EA7C931B281A499900D931DA /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C931A281A499900D931DA /* BeerViewController.swift */; };
+		EA7C931D281A4D6F00D931DA /* MixedDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C931C281A4D6F00D931DA /* MixedDrinkViewController.swift */; };
+		EA7C931F281B0B1700D931DA /* BreweryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C931E281B0B1700D931DA /* BreweryViewController.swift */; };
+		EA7C9321281B0F5F00D931DA /* Breweries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9320281B0F5E00D931DA /* Breweries.swift */; };
+		EA7C9323281B0F9B00D931DA /* Brewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9322281B0F9B00D931DA /* Brewery.swift */; };
+		EA7C9325281B4E9E00D931DA /* StateBrewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9324281B4E9E00D931DA /* StateBrewery.swift */; };
+		EA7C9327281B62CD00D931DA /* BreweryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9326281B62CD00D931DA /* BreweryDetailViewController.swift */; };
+		EA7C932B281B9D0E00D931DA /* SampleBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C932A281B9D0E00D931DA /* SampleBeerViewController.swift */; };
+		EA7C932D281B9EFB00D931DA /* SampleBeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C932C281B9EFB00D931DA /* SampleBeers.swift */; };
+		EA7C932F281B9F6000D931DA /* samplebeersStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C932E281B9F6000D931DA /* samplebeersStruct.swift */; };
+		EA7C9337281C426400D931DA /* DetailSampleBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9336281C426300D931DA /* DetailSampleBeerViewController.swift */; };
+		EA7C933B281C6CA200D931DA /* BeerReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C933A281C6CA200D931DA /* BeerReviewViewController.swift */; };
+		EAC49332281F6F3C00C6C179 /* BreweryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC49331281F6F3C00C6C179 /* BreweryDetailTableViewController.swift */; };
+		EAC49334281F704300C6C179 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC49333281F704200C6C179 /* Team.swift */; };
+		EAC49336281F7BAB00C6C179 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC49335281F7BAB00C6C179 /* Teams.swift */; };
+		EAC49338281F9AA800C6C179 /* VenueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC49337281F9AA800C6C179 /* VenueListViewController.swift */; };
+		EAC4933A281F9DD000C6C179 /* VenueDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC49339281F9DD000C6C179 /* VenueDetailTableViewController.swift */; };
+		EAC4933C281FA16000C6C179 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4933B281FA16000C6C179 /* Venue.swift */; };
+		EAC4933E281FA82E00C6C179 /* Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4933D281FA82E00C6C179 /* Venues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BC9A99D2BAE815CDB3B80CC /* Pods-NAVE4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAVE4.debug.xcconfig"; path = "Target Support Files/Pods-NAVE4/Pods-NAVE4.debug.xcconfig"; sourceTree = "<group>"; };
+		A8FCF1AE17CE4151B232E8BF /* Pods_NAVE4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAVE4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14F7D0D3DFDF80AE410EA44 /* Pods-NAVE4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAVE4.release.xcconfig"; path = "Target Support Files/Pods-NAVE4/Pods-NAVE4.release.xcconfig"; sourceTree = "<group>"; };
 		EA7C92FB281A26E700D931DA /* NAVE4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAVE4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7C92FE281A26E700D931DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA7C9300281A26E700D931DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA7C9302281A26E700D931DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA7C9302281A26E700D931DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EA7C9305281A26E700D931DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA7C9307281A26E900D931DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7C930A281A26E900D931DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7C930C281A26E900D931DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7C9312281A2FB000D931DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EA7C9314281A3ED500D931DA /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EA7C9316281A445600D931DA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA7C9318281A48BA00D931DA /* WineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
+		EA7C931A281A499900D931DA /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		EA7C931C281A4D6F00D931DA /* MixedDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedDrinkViewController.swift; sourceTree = "<group>"; };
+		EA7C931E281B0B1700D931DA /* BreweryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryViewController.swift; sourceTree = "<group>"; };
+		EA7C9320281B0F5E00D931DA /* Breweries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breweries.swift; sourceTree = "<group>"; };
+		EA7C9322281B0F9B00D931DA /* Brewery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery.swift; sourceTree = "<group>"; };
+		EA7C9324281B4E9E00D931DA /* StateBrewery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBrewery.swift; sourceTree = "<group>"; };
+		EA7C9326281B62CD00D931DA /* BreweryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryDetailViewController.swift; sourceTree = "<group>"; };
+		EA7C932A281B9D0E00D931DA /* SampleBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBeerViewController.swift; sourceTree = "<group>"; };
+		EA7C932C281B9EFB00D931DA /* SampleBeers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBeers.swift; sourceTree = "<group>"; };
+		EA7C932E281B9F6000D931DA /* samplebeersStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samplebeersStruct.swift; sourceTree = "<group>"; };
+		EA7C9336281C426300D931DA /* DetailSampleBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSampleBeerViewController.swift; sourceTree = "<group>"; };
+		EA7C933A281C6CA200D931DA /* BeerReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerReviewViewController.swift; sourceTree = "<group>"; };
+		EAC49331281F6F3C00C6C179 /* BreweryDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryDetailTableViewController.swift; sourceTree = "<group>"; };
+		EAC49333281F704200C6C179 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		EAC49335281F7BAB00C6C179 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		EAC49337281F9AA800C6C179 /* VenueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewController.swift; sourceTree = "<group>"; };
+		EAC49339281F9DD000C6C179 /* VenueDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailTableViewController.swift; sourceTree = "<group>"; };
+		EAC4933B281FA16000C6C179 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		EAC4933D281FA82E00C6C179 /* Venues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B758BA97311F9DB3AF88FB93 /* Pods_NAVE4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BBC9DC5B621886D05A6C8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FCF1AE17CE4151B232E8BF /* Pods_NAVE4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5853CDDF35DD236EB4D2F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9A99D2BAE815CDB3B80CC /* Pods-NAVE4.debug.xcconfig */,
+				B14F7D0D3DFDF80AE410EA44 /* Pods-NAVE4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EA7C92F2281A26E700D931DA = {
 			isa = PBXGroup;
 			children = (
 				EA7C92FD281A26E700D931DA /* NAVE4 */,
 				EA7C92FC281A26E700D931DA /* Products */,
+				A5853CDDF35DD236EB4D2F04 /* Pods */,
+				8BBC9DC5B621886D05A6C8A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +128,34 @@
 			children = (
 				EA7C92FE281A26E700D931DA /* AppDelegate.swift */,
 				EA7C9300281A26E700D931DA /* SceneDelegate.swift */,
-				EA7C9302281A26E700D931DA /* ViewController.swift */,
+				EA7C9302281A26E700D931DA /* LoginViewController.swift */,
 				EA7C9304281A26E700D931DA /* Main.storyboard */,
+				EAC49339281F9DD000C6C179 /* VenueDetailTableViewController.swift */,
+				EAC4933B281FA16000C6C179 /* Venue.swift */,
+				EAC4933D281FA82E00C6C179 /* Venues.swift */,
+				EAC49337281F9AA800C6C179 /* VenueListViewController.swift */,
+				EA7C9326281B62CD00D931DA /* BreweryDetailViewController.swift */,
+				EAC49333281F704200C6C179 /* Team.swift */,
+				EAC49335281F7BAB00C6C179 /* Teams.swift */,
+				EAC49331281F6F3C00C6C179 /* BreweryDetailTableViewController.swift */,
+				EA7C933A281C6CA200D931DA /* BeerReviewViewController.swift */,
+				EA7C9318281A48BA00D931DA /* WineViewController.swift */,
+				EA7C932A281B9D0E00D931DA /* SampleBeerViewController.swift */,
+				EA7C9336281C426300D931DA /* DetailSampleBeerViewController.swift */,
+				EA7C931A281A499900D931DA /* BeerViewController.swift */,
+				EA7C931E281B0B1700D931DA /* BreweryViewController.swift */,
+				EA7C932C281B9EFB00D931DA /* SampleBeers.swift */,
+				EA7C932E281B9F6000D931DA /* samplebeersStruct.swift */,
+				EA7C9320281B0F5E00D931DA /* Breweries.swift */,
+				EA7C9322281B0F9B00D931DA /* Brewery.swift */,
+				EA7C9324281B4E9E00D931DA /* StateBrewery.swift */,
+				EA7C9316281A445600D931DA /* MainViewController.swift */,
+				EA7C931C281A4D6F00D931DA /* MixedDrinkViewController.swift */,
+				EA7C9314281A3ED500D931DA /* AboutViewController.swift */,
 				EA7C9307281A26E900D931DA /* Assets.xcassets */,
 				EA7C9309281A26E900D931DA /* LaunchScreen.storyboard */,
 				EA7C930C281A26E900D931DA /* Info.plist */,
+				EA7C9312281A2FB000D931DA /* GoogleService-Info.plist */,
 			);
 			path = NAVE4;
 			sourceTree = "<group>";
@@ -74,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA7C930F281A26E900D931DA /* Build configuration list for PBXNativeTarget "NAVE4" */;
 			buildPhases = (
+				D7719F21258335DBA698D8A6 /* [CP] Check Pods Manifest.lock */,
 				EA7C92F7281A26E700D931DA /* Sources */,
 				EA7C92F8281A26E700D931DA /* Frameworks */,
 				EA7C92F9281A26E700D931DA /* Resources */,
+				D0CD26CC5E7B168CC30E3809 /* [CP] Embed Pods Frameworks */,
+				0E31EADE861C292111D46CC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7C930B281A26E900D931DA /* LaunchScreen.storyboard in Resources */,
+				EA7C9313281A2FB100D931DA /* GoogleService-Info.plist in Resources */,
 				EA7C9308281A26E900D931DA /* Assets.xcassets in Resources */,
 				EA7C9306281A26E700D931DA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +230,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E31EADE861C292111D46CC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0CD26CC5E7B168CC30E3809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NAVE4/Pods-NAVE4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7719F21258335DBA698D8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAVE4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA7C92F7281A26E700D931DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7C9303281A26E700D931DA /* ViewController.swift in Sources */,
+				EAC49336281F7BAB00C6C179 /* Teams.swift in Sources */,
+				EAC4933C281FA16000C6C179 /* Venue.swift in Sources */,
+				EA7C9303281A26E700D931DA /* LoginViewController.swift in Sources */,
 				EA7C92FF281A26E700D931DA /* AppDelegate.swift in Sources */,
+				EA7C931B281A499900D931DA /* BeerViewController.swift in Sources */,
+				EA7C931F281B0B1700D931DA /* BreweryViewController.swift in Sources */,
+				EA7C9315281A3ED500D931DA /* AboutViewController.swift in Sources */,
+				EA7C9337281C426400D931DA /* DetailSampleBeerViewController.swift in Sources */,
+				EA7C932F281B9F6000D931DA /* samplebeersStruct.swift in Sources */,
+				EAC49332281F6F3C00C6C179 /* BreweryDetailTableViewController.swift in Sources */,
+				EA7C9319281A48BA00D931DA /* WineViewController.swift in Sources */,
+				EA7C9325281B4E9E00D931DA /* StateBrewery.swift in Sources */,
 				EA7C9301281A26E700D931DA /* SceneDelegate.swift in Sources */,
+				EA7C9317281A445600D931DA /* MainViewController.swift in Sources */,
+				EA7C9321281B0F5F00D931DA /* Breweries.swift in Sources */,
+				EA7C932B281B9D0E00D931DA /* SampleBeerViewController.swift in Sources */,
+				EA7C931D281A4D6F00D931DA /* MixedDrinkViewController.swift in Sources */,
+				EAC49338281F9AA800C6C179 /* VenueListViewController.swift in Sources */,
+				EAC4933E281FA82E00C6C179 /* Venues.swift in Sources */,
+				EA7C9327281B62CD00D931DA /* BreweryDetailViewController.swift in Sources */,
+				EAC49334281F704300C6C179 /* Team.swift in Sources */,
+				EA7C9323281B0F9B00D931DA /* Brewery.swift in Sources */,
+				EA7C933B281C6CA200D931DA /* BeerReviewViewController.swift in Sources */,
+				EA7C932D281B9EFB00D931DA /* SampleBeers.swift in Sources */,
+				EAC4933A281F9DD000C6C179 /* VenueDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +462,7 @@
 		};
 		EA7C9310281A26E900D931DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC9A99D2BAE815CDB3B80CC /* Pods-NAVE4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +471,7 @@
 				DEVELOPMENT_TEAM = 36N3X4UYKT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NAVE4/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NAVE;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -312,6 +492,7 @@
 		};
 		EA7C9311281A26E900D931DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14F7D0D3DFDF80AE410EA44 /* Pods-NAVE4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +501,7 @@
 				DEVELOPMENT_TEAM = 36N3X4UYKT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NAVE4/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NAVE;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
